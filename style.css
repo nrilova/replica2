@@ -1,0 +1,161 @@
+
+
+.title{
+    display: flex;
+    justify-content: start;
+    font-size: small;
+    margin-left: 16rem;
+    margin-top: 1,5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+    margin-top: 10px;
+    margin-right: 16rem;
+
+}
+
+.navmain{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-left: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    align-items: baseline;
+    font-size: small;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1rem;
+    box-shadow: 0px 2px #d7d7d7;
+}
+
+#botton-blue{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #2937F0;
+    border-radius: 25px;
+    background-color: #2937F0;
+
+}
+
+#botton-blue:hover {
+    color: white;
+    box-shadow: 0 4px 16px #2937F0;
+    transition: all 0.2s ease;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parte-1{
+    width: 28vw;
+    margin-left: 7rem;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Newsreader'
+}
+
+.imagen-movil{
+    margin-right: 14rem;
+}
+
+.fondo {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    }
+
+.parte-2{
+    width: 100%;
+    max-width: 1500;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+.texto2{
+    position: absolute;
+    top:30%;
+    left: 16%;
+    font-size: 150px;
+    color: white;
+}
+
+.bottonfactoria{
+    position: absolute;
+    top: 58%;
+    left: 16%;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 12px;
+}
+
+.parte-3{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+}
+
+.iconos{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 14rem;
+}
+
+svg{
+    width: 50px;
+    height: 50px;
+    color: #492FEC;
+    margin-bottom: 5px;
+}
+
+.movil-2{
+    margin-left: 7rem;
+}
+
+.iconos-1 {
+    margin: 50px;
+
+}
+
+.parte-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: grey;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: gray;
+    margin: 2px;
+}
+
+.footer{
+    text-decoration: none;
+    text-transform: none;
+}
